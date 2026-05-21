@@ -1,0 +1,13 @@
+[package]
+name = "nfl-mmap"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "NFL mmap-first file mapping and zero-copy segment access."
+license = "Apache-2.0 OR MIT"
+
+[dependencies]
+memmap2 = "0.6"
+nfl-core = { path = "../nfl-core" }
+nfl-format = { path = "../nfl-format" }
+nfl-schema = { path = "../nfl-schema" }

@@ -1,0 +1,19 @@
+[workspace]
+members = [
+    "crates/nfl-core",
+    "crates/nfl-format",
+    "crates/nfl-schema",
+    "crates/nfl-types",
+    "crates/nfl-io",
+    "crates/nfl-mmap",
+    "crates/nfl-simd",
+    "crates/nfl-index",
+    "crates/nfl-vector",
+    "crates/nfl-tensor",
+    "crates/nfl-arrow",
+    "crates/nfl-query",
+    "crates/nfl-security",
+    "crates/nfl-testing",
+    "apps/nfl-cli",
+    "apps/nfl-bench",
+]

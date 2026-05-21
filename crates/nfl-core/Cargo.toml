@@ -1,0 +1,10 @@
+[package]
+name = "nfl-core"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Core primitives, alignment helpers, and error types for NFL storage." 
+license = "Apache-2.0 OR MIT"
+
+[dependencies]
+thiserror = "1.0"

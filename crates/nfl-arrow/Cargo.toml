@@ -1,0 +1,12 @@
+[package]
+name = "nfl-arrow"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "NFL Arrow interoperability layer for schema and buffer translation."
+license = "Apache-2.0 OR MIT"
+
+[dependencies]
+arrow2 = "0.20"
+nfl-core = { path = "../nfl-core" }
+nfl-schema = { path = "../nfl-schema" }
